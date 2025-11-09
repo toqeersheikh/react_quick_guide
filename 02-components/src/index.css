@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  /* font-family: sans-serif; */
+  font-family: helvetica;
+}
+body {
+  background-color: #111;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: crimson;
+  font-size: 50px;
+}
+.navbar {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: violet;
+  font-size: 50px;
+}
