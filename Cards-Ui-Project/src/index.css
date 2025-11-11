@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+.parent {
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+.card {
+  height: 420px;
+  width: 380px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  /* box-shadow: 7px 0px 100px 3px #8f8f8f; */
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.top img {
+  width: 50px;
+  height: 50px;
+}
+.top button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* top | right | bottom | left */
+  padding: 0px 15px 0px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+.center {
+  margin-bottom: 70px;
+  padding: 10px;
+}
+.center div {
+  display: flex;
+  gap: 5px;
+}
+.center h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.center h3 span {
+  font-size: 16px;
+  font-weight: 300;
+  color: #8d8d8d;
+}
+.center h2 {
+  font-size: 30px;
+  font-weight: 570;
+  margin-bottom: 3px;
+}
+.center h4 {
+  display: block;
+  background-color: #eeeeee;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 7px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top | right | bottom | left */
+  padding: 30px 10px 10px 12px;
+  border-top: 2px solid #e7e7e7;
+}
+.bottom button {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.bottom h3 {
+  font-size: 22px;
+  font-weight: 550;
+}
+
+.bottom p {
+  font-size: 14px;
+  font-weight: 300;
+}
