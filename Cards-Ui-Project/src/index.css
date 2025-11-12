@@ -6,20 +6,26 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: #222;
+  /* color: #fff; */
 }
+
 body {
   height: 100%;
   width: 100%;
   background-color: #1a1a1a;
 }
 .parent {
-  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 35px;
+  min-height: 100vh;
   width: 100%;
-  padding: 30px;
+  padding: 5%;
 }
 .card {
-  height: 420px;
-  width: 380px;
+  height: 450px;
+  width: 420px;
   background-color: #fff;
   border-radius: 30px;
   padding: 10px;
